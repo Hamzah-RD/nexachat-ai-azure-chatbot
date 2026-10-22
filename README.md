@@ -12,10 +12,12 @@ A lightweight Flask chatbot for Azure App Service (Linux). Includes a responsive
 
 | Name | Value |
 | --- | --- |
-| AZURE_OPENAI_API_KEY | Existing Azure AI resource ki key |
-| AZURE_OPENAI_ENDPOINT | https://YOUR-RESOURCE.openai.azure.com |
+| AZURE_OPENAI_API_KEY | 3FKeCATt9mJFRr0mTGmKbhIV2gVIWA0Qf6qw8fHDqJ2Vv5sD2aabJQQJ99CJACfhMk5XJ3w3AAAAACOGXLUX
+AZURE_OPENAI_DEPLOYMENT= gpt-4o |
+| AZURE_OPENAI_ENDPOINT |[ https://YOUR-RESOURCE.openai.azure.com](https://yusranazish-project3-resource.services.ai.azure.com/openai/v1
+) |
 | AZURE_OPENAI_DEPLOYMENT | Existing deployed GPT-4.1-mini ka EXACT deployment name |
-| SCM_DO_BUILD_DURING_DEPLOYMENT | true |
+| SCM_DO_BUILD_DURING_DEPLOYMENT | 2024-12-01-preview |
 
 `https://YOUR-RESOURCE.services.ai.azure.com` resource endpoint bhi supported hai. Foundry project URL (`.../api/projects/...`) use na karein. Endpoint aur key same resource se hon. Key frontend files mein na dalein.
 
